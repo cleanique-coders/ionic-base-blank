@@ -10,13 +10,13 @@ angular.module('app.routes', [])
     
   
 
-      .state('page', {
+  .state('home', {
     url: '/page1',
-    templateUrl: 'templates/page.html',
+    templateUrl: 'templates/home.html',
     controller: 'pageCtrl'
   })
 
-$urlRouterProvider.otherwise('/page1')
+$urlRouterProvider.otherwise('/home')
 
   
 
