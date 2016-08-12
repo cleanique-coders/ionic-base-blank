@@ -15,6 +15,10 @@ angular.module('app', [
   'ngStorage'
 ])
 
+.constant('ApiEndpoint', {
+  url: 'http://ion-api.dev/'
+})
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
