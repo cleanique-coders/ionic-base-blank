@@ -28,3 +28,7 @@ A simple template with ngCordova & ngstorage installed. May add some more common
 
 })
 ```
+
+## Using `$storage`
+
+`$storage` is accessible everywhere in views since it's been define in `$rootScope.$storage`
