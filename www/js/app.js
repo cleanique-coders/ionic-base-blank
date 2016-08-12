@@ -11,7 +11,8 @@ angular.module('app', [
   'app.routes', 
   'app.services', 
   'app.directives', 
-  'ngCordova'
+  'ngCordova',
+  'ngStorage'
 ])
 
 .run(function($ionicPlatform) {
